@@ -6,6 +6,7 @@ FFMPEG -i "ENTRADA" -i "LEGENDA" -c:v libx264 -crf 23 -preset ultrafast -c:a aac
 command FFMPEG simplifated
 FFMPEG -i "INPUT" "OUTPUT" 
 """
+""" https://drive.google.com/file/d/14Ga09xjQZdZ5R3SIjdRfpktazHh9p-Bd/view """
 
 from mimetypes import common_types
 import os
